@@ -49,7 +49,7 @@ $processors = $stmt->fetchAll(PDO::FETCH_ASSOC);
       <!-- Seleção de Placa-mãe -->
       <div class="col-md-6">
         <div class="card">
-          <div class="card-header">Placa-mãe</div>
+          <div class="card-header">Placa-mãe do bryan,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,</div>
           <div class="card-body">
             <select id="motherboard" class="form-select" disabled>
               <option>Escolha o processador primeiro</option>
