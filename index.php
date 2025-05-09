@@ -10,7 +10,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['next'])) {
 }
 // Volta etapa ao clicar em Voltar
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['back'])) {
-    $_SESSION['step']--;
+    $_SESSION['step']++;
 }
 // Reset de sessão
 if (isset($_GET['reset'])) {
