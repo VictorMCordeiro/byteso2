@@ -1,6 +1,15 @@
 <?php
 require_once __DIR__ . '/config/db.php';
 require_once __DIR__ . '/includes/cabecalho.php';
+
+function calcularValorTotal($montagem) {
+    $total = 0;
+    foreach ($montagem as $peca) {
+        $total += $peca['preco'];
+    }
+    return $total;
+}
+
 $step = $_SESSION['step'];
 switch ($step) {
     case 1:

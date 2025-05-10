@@ -11,7 +11,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.4.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         :root {
-            --primary-green: #28a745;
+            --primary-green:rgb(100, 0, 150);
             --dark-bg: #1f1f1f;
         }
         body { background-color: #f0fdf4; }
